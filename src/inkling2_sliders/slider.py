@@ -11,12 +11,12 @@ from torch import nn
 from particlegan.init import R2Normal
 from particle_sliders.adapter_activation import push_activation, restore_activation
 from particle_sliders.adapter_attachment import atomic_attachment
+from particle_sliders.audio import ARLastHiddenResponseAdapter, AudioResponseCritic, AudioRow, audio_conditions
+from particle_sliders.engine import ConditionalParticleGAN, PG_SOURCE_PROFILE, PG_VERSION
 from particle_sliders.field_critic import seed_initialization_rng
 from particle_sliders.inference import InferenceBackend, InferenceBinding, native_identity
 from particle_sliders.initialization import ComponentInitialization, initialize_fresh_components
 from particle_sliders.lifecycle import Binding, Capabilities, _check_packet, read_packet
-from particle_sliders.pg0110 import ConditionalPG0110, PG_SOURCE_PROFILE
-from particle_sliders.pg09_audio import ARLastHiddenResponseAdapter, AudioResponseCritic, AudioRow, audio_conditions
 from particle_sliders.response import ResponseBackend, ResponseCapabilities, TRAINING as FULL_SCHEMA
 from particle_sliders.routed_projection import TinyParticleProjection
 from particle_sliders.weight_policy import require_no_weight_ema
@@ -29,7 +29,7 @@ POLICY = "seeded-keep-adapter-qr-critic-r2-bank-v1"
 PRECISION = "bf16-packed-nvfp4-mxfp8"
 RESPONSE_CAPABILITIES = ResponseCapabilities(
     "routed_particle_gan", "text", "native_final_AR_token_hidden", "continuous_vector",
-    (1, WIDTH), "0.11.0", PG_SOURCE_PROFILE, penalty_input_domain="continuous",
+    (1, WIDTH), PG_VERSION, PG_SOURCE_PROFILE, penalty_input_domain="continuous",
     base_precisions=(PRECISION,), qualification="Pinned Inkling 2 Mini text tower",
 )
 TEXT_CAPABILITIES = Capabilities(
@@ -158,8 +158,8 @@ def _validate(options):
     if set(options) != expected:
         raise ValueError("Inkling training requires exact model, device, data, budget, rates and EMA fields")
     require_no_weight_ema(options["ema_decay"])
-    if version("particle-sliders-core") != "0.14.4":
-        raise ValueError("install the reviewed Particle Sliders core 0.14.4")
+    if version("particle-sliders-core") != "0.15.2":
+        raise ValueError("install the reviewed Particle Sliders core 0.15.2")
     device = torch.device(options["device"])
     if device.type != "cuda" or device.index is None:
         raise ValueError("production training requires explicit CUDA placement")
@@ -209,11 +209,12 @@ def _prepare(options, *, cohort, receipt, resident, prepared):
             native.initialization = (
                 _initialize(native, critic, options["seed"], cohort) if receipt is None else receipt
             )
-            game = ConditionalPG0110(
+            game = ConditionalParticleGAN(
                 native, rows, critic, conditions=conditions, particles=native.particles,
-                preset="empf", response_domain="continuous_vector", penalty_input_domain="continuous",
+                preset="empf", optimizer_dense_profile="recipe",
+                response_domain="continuous_vector", penalty_input_domain="continuous",
                 total_steps=options["steps"], seed=options["seed"], batch_size=options["batch"],
-                recipe_overrides=options["rates"], ema_decay=None,
+                recipe_overrides=options["rates"],
             )
             spec = INFERENCE.specification(
                 native, model_identity=runtime.identity, protocol=PROTOCOL,
