@@ -1,0 +1,202 @@
+[
+  {
+    "cosine": 0.235861673951149,
+    "fraction_of_target_norm": 0.08853112161159515,
+    "off": {
+      "dash": 23.207218170166016,
+      "greedy": "Carrot",
+      "margin": -3.2436466217041016,
+      "rank": 9
+    },
+    "on": {
+      "dash": 23.05516242980957,
+      "greedy": "Carrot",
+      "margin": -3.1664371490478516,
+      "rank": 9
+    },
+    "relative_squared_error": 0.966075599193573,
+    "student_delta_norm": 24.525806427001953,
+    "teacher": {
+      "dash": 26.450864791870117,
+      "greedy": "-",
+      "margin": 16.917713165283203,
+      "rank": 1
+    },
+    "teacher_delta_norm": 277.03033447265625
+  },
+  {
+    "cosine": 0.24743272364139557,
+    "fraction_of_target_norm": 0.07974263280630112,
+    "off": {
+      "dash": 21.549619674682617,
+      "greedy": "Cow",
+      "margin": -4.237253189086914,
+      "rank": 10
+    },
+    "on": {
+      "dash": 21.304704666137695,
+      "greedy": "Cow",
+      "margin": -4.482168197631836,
+      "rank": 10
+    },
+    "relative_squared_error": 0.9668968915939331,
+    "student_delta_norm": 21.633926391601562,
+    "teacher": {
+      "dash": 25.78687286376953,
+      "greedy": "-",
+      "margin": 17.854869842529297,
+      "rank": 1
+    },
+    "teacher_delta_norm": 271.296875
+  },
+  {
+    "cosine": 0.24325349926948547,
+    "fraction_of_target_norm": 0.08016017079353333,
+    "off": {
+      "dash": 22.742164611816406,
+      "greedy": "Here",
+      "margin": -3.1734275817871094,
+      "rank": 9
+    },
+    "on": {
+      "dash": 22.58115005493164,
+      "greedy": "Here",
+      "margin": -3.2705459594726562,
+      "rank": 9
+    },
+    "relative_squared_error": 0.9674272537231445,
+    "student_delta_norm": 21.28875160217285,
+    "teacher": {
+      "dash": 25.51811981201172,
+      "greedy": "-",
+      "margin": 13.959600448608398,
+      "rank": 1
+    },
+    "teacher_delta_norm": 265.5776672363281
+  },
+  {
+    "cosine": 0.2046990990638733,
+    "fraction_of_target_norm": 0.07375185191631317,
+    "off": {
+      "dash": 23.30696678161621,
+      "greedy": "Here",
+      "margin": -2.914632797241211,
+      "rank": 7
+    },
+    "on": {
+      "dash": 23.25725555419922,
+      "greedy": "Here",
+      "margin": -2.9049034118652344,
+      "rank": 7
+    },
+    "relative_squared_error": 0.975245475769043,
+    "student_delta_norm": 22.60503578186035,
+    "teacher": {
+      "dash": 23.64606285095215,
+      "greedy": "-",
+      "margin": 14.112910270690918,
+      "rank": 1
+    },
+    "teacher_delta_norm": 306.5012512207031
+  },
+  {
+    "cosine": 0.20221656560897827,
+    "fraction_of_target_norm": 0.07748909294605255,
+    "off": {
+      "dash": 21.788742065429688,
+      "greedy": "Here",
+      "margin": -4.062953948974609,
+      "rank": 9
+    },
+    "on": {
+      "dash": 21.788742065429688,
+      "greedy": "Here",
+      "margin": -4.062953948974609,
+      "rank": 9
+    },
+    "relative_squared_error": 0.9746654033660889,
+    "student_delta_norm": 22.69845199584961,
+    "teacher": {
+      "dash": 25.08536720275879,
+      "greedy": "-",
+      "margin": 14.063299179077148,
+      "rank": 1
+    },
+    "teacher_delta_norm": 292.9244689941406
+  },
+  {
+    "cosine": 0.2185337096452713,
+    "fraction_of_target_norm": 0.07847924530506134,
+    "off": {
+      "dash": 23.64606285095215,
+      "greedy": "Here",
+      "margin": -3.0209808349609375,
+      "rank": 5
+    },
+    "on": {
+      "dash": 23.55075454711914,
+      "greedy": "Here",
+      "margin": -3.063436508178711,
+      "rank": 6
+    },
+    "relative_squared_error": 0.9718582034111023,
+    "student_delta_norm": 22.69898796081543,
+    "teacher": {
+      "dash": 25.978578567504883,
+      "greedy": "-",
+      "margin": 17.583614349365234,
+      "rank": 1
+    },
+    "teacher_delta_norm": 289.2355651855469
+  },
+  {
+    "cosine": 0.22214315831661224,
+    "fraction_of_target_norm": 0.08527780324220657,
+    "off": {
+      "dash": 21.609941482543945,
+      "greedy": "Wood",
+      "margin": -5.803623199462891,
+      "rank": 7
+    },
+    "on": {
+      "dash": 21.304704666137695,
+      "greedy": "Wood",
+      "margin": -5.938745498657227,
+      "rank": 7
+    },
+    "relative_squared_error": 0.969384491443634,
+    "student_delta_norm": 21.994300842285156,
+    "teacher": {
+      "dash": 25.586750030517578,
+      "greedy": "-",
+      "margin": 18.033931732177734,
+      "rank": 1
+    },
+    "teacher_delta_norm": 257.9135437011719
+  },
+  {
+    "cosine": 0.2547537386417389,
+    "fraction_of_target_norm": 0.07606618851423264,
+    "off": {
+      "dash": 20.46785545349121,
+      "greedy": "Scre",
+      "margin": -5.926946640014648,
+      "rank": 20
+    },
+    "on": {
+      "dash": 20.197546005249023,
+      "greedy": "Scre",
+      "margin": -6.024053573608398,
+      "rank": 21
+    },
+    "relative_squared_error": 0.9670296907424927,
+    "student_delta_norm": 23.287904739379883,
+    "teacher": {
+      "dash": 23.156858444213867,
+      "greedy": "-",
+      "margin": 13.849052429199219,
+      "rank": 1
+    },
+    "teacher_delta_norm": 306.1531677246094
+  }
+]

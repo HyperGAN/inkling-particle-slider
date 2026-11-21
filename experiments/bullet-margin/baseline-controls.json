@@ -1,0 +1,242 @@
+{
+  "integrity_fixtures": [
+    {
+      "expected": "pass",
+      "result": "pass",
+      "stop": "eos",
+      "text": "Apples, nuts and crackers."
+    },
+    {
+      "expected": "pass",
+      "result": "pass",
+      "stop": "eos",
+      "text": "- Apples\n- Nuts\n- Crackers"
+    },
+    {
+      "expected": "pass",
+      "result": "pass",
+      "stop": "length",
+      "text": "Apples, nuts,"
+    },
+    {
+      "expected": "pass",
+      "result": "pass",
+      "stop": "eos",
+      "text": "Apples"
+    },
+    {
+      "expected": "fail",
+      "result": "fail",
+      "stop": "eos",
+      "text": ""
+    },
+    {
+      "expected": "fail",
+      "result": "fail",
+      "stop": "length",
+      "text": "apple apple apple apple apple apple"
+    },
+    {
+      "expected": "fail",
+      "result": "fail",
+      "stop": "length",
+      "text": "one two one two one two one two"
+    },
+    {
+      "expected": "fail",
+      "result": "fail",
+      "stop": "eos",
+      "text": "\ufffd\ufffd\ufffd there"
+    },
+    {
+      "expected": "unmeasured",
+      "result": "unmeasured",
+      "stop": "length",
+      "text": "...."
+    }
+  ],
+  "matched": [
+    {
+      "explicit_positive": {
+        "integrity": "pass",
+        "intensity": 1.0,
+        "raw_text": "- Fruit\n- Cheese\n- Nuts<|end_message|><|content_model_end_sampling|>",
+        "stop": "eos",
+        "text": "- Fruit\n- Cheese\n- Nuts",
+        "token_ids": [
+          12,
+          220,
+          38720,
+          198,
+          12,
+          220,
+          45652,
+          198,
+          12,
+          160399,
+          82,
+          200010,
+          200006
+        ]
+      },
+      "off": {
+        "integrity": "pass",
+        "intensity": 0.0,
+        "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+        "stop": "length",
+        "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+        "token_ids": [
+          3828,
+          149914,
+          150396,
+          193563,
+          82,
+          149887,
+          149878,
+          220,
+          37849,
+          25,
+          68014,
+          16,
+          13,
+          156809,
+          34109,
+          198
+        ]
+      },
+      "prompt": "Name three snacks for a picnic. Use one word per example."
+    },
+    {
+      "explicit_positive": {
+        "integrity": "pass",
+        "intensity": 1.0,
+        "raw_text": "- Cinnamon\n- Nutmeg\n- Cloves<|end_message|><|content_model_end_sampling|>",
+        "stop": "eos",
+        "text": "- Cinnamon\n- Nutmeg\n- Cloves",
+        "token_ids": [
+          12,
+          220,
+          57111,
+          198,
+          12,
+          160399,
+          53726,
+          198,
+          12,
+          149929,
+          2432,
+          82,
+          200010,
+          200006
+        ]
+      },
+      "off": {
+        "integrity": "pass",
+        "intensity": 0.0,
+        "raw_text": "Cinnamon, nutmeg, and ginger.<|end_message|><|content_model_end_sampling|>",
+        "stop": "eos",
+        "text": "Cinnamon, nutmeg, and ginger.",
+        "token_ids": [
+          57111,
+          11,
+          155790,
+          53726,
+          11,
+          149880,
+          220,
+          43137,
+          13,
+          200010,
+          200006
+        ]
+      },
+      "prompt": "Name three spices used in baking. Use one word per example."
+    },
+    {
+      "explicit_positive": {
+        "integrity": "pass",
+        "intensity": 1.0,
+        "raw_text": "- Oak\n- Maple\n- Pine<|end_message|><|content_model_end_sampling|>",
+        "stop": "eos",
+        "text": "- Oak\n- Maple\n- Pine",
+        "token_ids": [
+          12,
+          185004,
+          198,
+          12,
+          220,
+          41024,
+          198,
+          12,
+          220,
+          39249,
+          200010,
+          200006
+        ]
+      },
+      "off": {
+        "integrity": "pass",
+        "intensity": 0.0,
+        "raw_text": "Oak, Maple, Pine.<|end_message|><|content_model_end_sampling|>",
+        "stop": "eos",
+        "text": "Oak, Maple, Pine.",
+        "token_ids": [
+          36788,
+          11,
+          220,
+          41024,
+          11,
+          220,
+          39249,
+          13,
+          200010,
+          200006
+        ]
+      },
+      "prompt": "Name three common trees. Use one word per example."
+    },
+    {
+      "explicit_positive": {
+        "integrity": "pass",
+        "intensity": 1.0,
+        "raw_text": "- Guitar\n- Piano\n- Drums<|end_message|><|content_model_end_sampling|>",
+        "stop": "eos",
+        "text": "- Guitar\n- Piano\n- Drums",
+        "token_ids": [
+          12,
+          220,
+          49402,
+          198,
+          12,
+          183619,
+          198,
+          12,
+          220,
+          43295,
+          82,
+          200010,
+          200006
+        ]
+      },
+      "off": {
+        "integrity": "pass",
+        "intensity": 0.0,
+        "raw_text": "Guitar, violin, piano.<|end_message|><|content_model_end_sampling|>",
+        "stop": "eos",
+        "text": "Guitar, violin, piano.",
+        "token_ids": [
+          49402,
+          11,
+          220,
+          36555,
+          11,
+          158944,
+          13,
+          200010,
+          200006
+        ]
+      },
+      "prompt": "Name three musical instruments. Use one word per example."
+    }
+  ]
+}

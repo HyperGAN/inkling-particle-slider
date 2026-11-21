@@ -1,0 +1,106 @@
+[
+  {
+    "cosine": 0.23326656222343445,
+    "fraction_of_target_norm": 0.07635051012039185,
+    "off": {
+      "dash": 20.66659164428711,
+      "greedy": "Here",
+      "margin": -4.711315155029297,
+      "rank": 17
+    },
+    "on": {
+      "dash": 20.265697479248047,
+      "greedy": "Here",
+      "margin": -4.967990875244141,
+      "rank": 20
+    },
+    "prompt": "Name three snacks for a picnic. Use one word per example.",
+    "relative_squared_error": 0.9702092409133911,
+    "student_delta_norm": 22.516101837158203,
+    "teacher": {
+      "dash": 25.377906799316406,
+      "greedy": "-",
+      "margin": 15.010478019714355,
+      "rank": 1
+    },
+    "teacher_delta_norm": 294.9044189453125
+  },
+  {
+    "cosine": 0.2475976049900055,
+    "fraction_of_target_norm": 0.06948404759168625,
+    "off": {
+      "dash": 20.333463668823242,
+      "greedy": "Cinnamon",
+      "margin": -5.828695297241211,
+      "rank": 9
+    },
+    "on": {
+      "dash": 20.129013061523438,
+      "greedy": "Cinnamon",
+      "margin": -5.786579132080078,
+      "rank": 9
+    },
+    "prompt": "Name three spices used in baking. Use one word per example.",
+    "relative_squared_error": 0.9704199433326721,
+    "student_delta_norm": 18.628173828125,
+    "teacher": {
+      "dash": 25.851696014404297,
+      "greedy": "-",
+      "margin": 18.474767684936523,
+      "rank": 1
+    },
+    "teacher_delta_norm": 268.0928039550781
+  },
+  {
+    "cosine": 0.2547858655452728,
+    "fraction_of_target_norm": 0.07987073063850403,
+    "off": {
+      "dash": 20.926305770874023,
+      "greedy": "Oak",
+      "margin": -5.353872299194336,
+      "rank": 9
+    },
+    "on": {
+      "dash": 20.66659164428711,
+      "greedy": "Oak",
+      "margin": -5.311986923217773,
+      "rank": 9
+    },
+    "prompt": "Name three common trees. Use one word per example.",
+    "relative_squared_error": 0.9656794667243958,
+    "student_delta_norm": 21.1635684967041,
+    "teacher": {
+      "dash": 26.39480209350586,
+      "greedy": "-",
+      "margin": 18.959182739257812,
+      "rank": 1
+    },
+    "teacher_delta_norm": 264.9727783203125
+  },
+  {
+    "cosine": 0.22386234998703003,
+    "fraction_of_target_norm": 0.07949616760015488,
+    "off": {
+      "dash": 22.361698150634766,
+      "greedy": "Guitar",
+      "margin": -3.9762115478515625,
+      "rank": 7
+    },
+    "on": {
+      "dash": 22.193490982055664,
+      "greedy": "Guitar",
+      "margin": -4.028108596801758,
+      "rank": 7
+    },
+    "prompt": "Name three musical instruments. Use one word per example.",
+    "relative_squared_error": 0.970727264881134,
+    "student_delta_norm": 21.1652889251709,
+    "teacher": {
+      "dash": 26.560550689697266,
+      "greedy": "-",
+      "margin": 17.422521591186523,
+      "rank": 1
+    },
+    "teacher_delta_norm": 266.2428894042969
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "actual_updates": 448,
+  "arms": [
+    {
+      "arm": "stock",
+      "integrity": "pass",
+      "passed_native_on": 9,
+      "raw_full_tensors": 19,
+      "status": "complete",
+      "updates": 64
+    },
+    {
+      "arm": "generator-half",
+      "integrity": "pass",
+      "passed_native_on": 9,
+      "raw_full_tensors": 19,
+      "status": "complete",
+      "updates": 64
+    },
+    {
+      "arm": "generator-double",
+      "integrity": "pass",
+      "passed_native_on": 9,
+      "raw_full_tensors": 19,
+      "status": "complete",
+      "updates": 64
+    },
+    {
+      "arm": "critic-half",
+      "integrity": "pass",
+      "passed_native_on": 9,
+      "raw_full_tensors": 19,
+      "status": "complete",
+      "updates": 64
+    },
+    {
+      "arm": "critic-double",
+      "integrity": "pass",
+      "passed_native_on": 9,
+      "raw_full_tensors": 19,
+      "status": "complete",
+      "updates": 64
+    },
+    {
+      "arm": "bank-half",
+      "integrity": "pass",
+      "passed_native_on": 9,
+      "raw_full_tensors": 19,
+      "status": "complete",
+      "updates": 64
+    },
+    {
+      "arm": "bank-double",
+      "integrity": "pass",
+      "passed_native_on": 9,
+      "raw_full_tensors": 19,
+      "status": "complete",
+      "updates": 64
+    }
+  ],
+  "best_tested": [
+    "stock",
+    "critic-half",
+    "critic-double",
+    "bank-half",
+    "bank-double"
+  ],
+  "qualified_finished_outputs": 63,
+  "scores": {
+    "bank-double": "1",
+    "bank-half": "1",
+    "critic-double": "1",
+    "critic-half": "1",
+    "generator-double": "17/18",
+    "generator-half": "1/3",
+    "stock": "1"
+  }
+}

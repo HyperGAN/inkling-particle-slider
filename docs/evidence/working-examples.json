@@ -1,0 +1,140 @@
+{
+  "exact_replay": {
+    "off": {
+      "same_tokens": true,
+      "text": "Cinnamon, nutmeg, and ginger."
+    },
+    "on": {
+      "same_tokens": true,
+      "text": "- Cinnamon\n- Nutmeg\n- Cloves"
+    }
+  },
+  "gain": "1",
+  "pairs": [
+    {
+      "off": {
+        "integrity": "pass",
+        "intensity": 0.0,
+        "raw_text": "Cotton, silk, wool.<|end_message|><|content_model_end_sampling|>",
+        "stop": "eos",
+        "text": "Cotton, silk, wool.",
+        "token_ids": [
+          42238,
+          11,
+          220,
+          37705,
+          11,
+          220,
+          38473,
+          13,
+          200010,
+          200006
+        ]
+      },
+      "on": {
+        "integrity": "pass",
+        "intensity": 1.0,
+        "raw_text": "- Cotton\n- Silk\n- Wool<|end_message|><|content_model_end_sampling|>",
+        "stop": "eos",
+        "text": "- Cotton\n- Silk\n- Wool",
+        "token_ids": [
+          12,
+          220,
+          42238,
+          198,
+          12,
+          197309,
+          198,
+          12,
+          220,
+          45534,
+          200010,
+          200006
+        ]
+      },
+      "prompt": "Name three kinds of fabric. Use one word per example."
+    },
+    {
+      "off": {
+        "integrity": "pass",
+        "intensity": 0.0,
+        "raw_text": "Red, orange, yellow.<|end_message|><|content_model_end_sampling|>",
+        "stop": "eos",
+        "text": "Red, orange, yellow.",
+        "token_ids": [
+          3977,
+          11,
+          156764,
+          11,
+          155423,
+          13,
+          200010,
+          200006
+        ]
+      },
+      "on": {
+        "integrity": "pass",
+        "intensity": 1.0,
+        "raw_text": "- Red\n- Orange\n- Yellow<|end_message|><|content_model_end_sampling|>",
+        "stop": "eos",
+        "text": "- Red\n- Orange\n- Yellow",
+        "token_ids": [
+          12,
+          151503,
+          198,
+          12,
+          184883,
+          198,
+          12,
+          185627,
+          200010,
+          200006
+        ]
+      },
+      "prompt": "Name three colors you might see on autumn leaves. Use one word per example."
+    },
+    {
+      "off": {
+        "integrity": "pass",
+        "intensity": 0.0,
+        "raw_text": "Trout, carp, and perch.<|end_message|><|content_model_end_sampling|>",
+        "stop": "eos",
+        "text": "Trout, carp, and perch.",
+        "token_ids": [
+          56387,
+          11,
+          220,
+          40099,
+          11,
+          149880,
+          184014,
+          13,
+          200010,
+          200006
+        ]
+      },
+      "on": {
+        "integrity": "pass",
+        "intensity": 1.0,
+        "raw_text": "- Trout\n- Bass\n- Carp<|end_message|><|content_model_end_sampling|>",
+        "stop": "eos",
+        "text": "- Trout\n- Bass\n- Carp",
+        "token_ids": [
+          12,
+          220,
+          56387,
+          198,
+          12,
+          189653,
+          198,
+          12,
+          220,
+          51245,
+          200010,
+          200006
+        ]
+      },
+      "prompt": "Name three kinds of freshwater fish. Use one word per example."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "effect": "Three unnumbered Markdown bullet lines",
+  "heldout": [
+    "Name three snacks for a picnic. Use one word per example.",
+    "Name three spices used in baking. Use one word per example.",
+    "Name three common trees. Use one word per example.",
+    "Name three musical instruments. Use one word per example."
+  ],
+  "max_new_tokens": 16,
+  "positive_prefix": "Format your answer as exactly three Markdown bullet lines using '- ' and no introductory or closing text. ",
+  "seed": 17361,
+  "steps": 8,
+  "training": [
+    "Name three vegetables. Use one word per example.",
+    "Name three animals you might see at a farm. Use one word per example.",
+    "Name three things you can wear. Use one word per example.",
+    "Name three games you can play indoors. Use at most two words per example.",
+    "Name three common garden tools. Use at most two words per example.",
+    "Name three things a bird might eat. Use at most two words per example.",
+    "Name three materials used to make furniture. Use one word per example.",
+    "Name three items commonly kept in a toolbox. Use one word per example."
+  ]
+}

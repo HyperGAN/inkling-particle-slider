@@ -1,0 +1,3526 @@
+{
+  "arms": [
+    {
+      "absolute_rates": [
+        0.012,
+        0.018000000000000002,
+        0.03
+      ],
+      "arm": "stock",
+      "initial": "711233950819c601e294be12d2a88373f21406094b2bf80d44a574a2a1d0695c",
+      "quarters": [
+        {
+          "cases": [
+            {
+              "gain": "0",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 1.0
+            }
+          ],
+          "integrity": "pass",
+          "score": null,
+          "updates": 16
+        },
+        {
+          "cases": [
+            {
+              "gain": "0",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 1.0
+            }
+          ],
+          "integrity": "pass",
+          "score": null,
+          "updates": 32
+        },
+        {
+          "cases": [
+            {
+              "gain": "1",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Sandwich\n- Fruit\n- Chips<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Sandwich\n- Fruit\n- Chips",
+                "token_ids": [
+                  12,
+                  156809,
+                  34109,
+                  198,
+                  12,
+                  220,
+                  38720,
+                  198,
+                  12,
+                  150508,
+                  33983,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 1.0
+            }
+          ],
+          "integrity": "pass",
+          "score": null,
+          "updates": 48
+        },
+        {
+          "cases": [
+            {
+              "gain": "1",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Sandwich\n- Fruit\n- Chips<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Sandwich\n- Fruit\n- Chips",
+                "token_ids": [
+                  12,
+                  156809,
+                  34109,
+                  198,
+                  12,
+                  220,
+                  38720,
+                  198,
+                  12,
+                  150508,
+                  33983,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 1.0
+            },
+            {
+              "gain": "1",
+              "index": 1,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Cinnamon, nutmeg, and ginger.<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "Cinnamon, nutmeg, and ginger.",
+                "token_ids": [
+                  57111,
+                  11,
+                  155790,
+                  53726,
+                  11,
+                  149880,
+                  220,
+                  43137,
+                  13,
+                  200010,
+                  200006
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Cinnamon\n- Nutmeg\n- Cloves<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Cinnamon\n- Nutmeg\n- Cloves",
+                "token_ids": [
+                  12,
+                  220,
+                  57111,
+                  198,
+                  12,
+                  160399,
+                  53726,
+                  198,
+                  12,
+                  149929,
+                  2432,
+                  82,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three spices used in baking. Use one word per example.",
+              "strength": 1.0
+            },
+            {
+              "gain": "1",
+              "index": 2,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Oak, Maple, Pine.<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "Oak, Maple, Pine.",
+                "token_ids": [
+                  36788,
+                  11,
+                  220,
+                  41024,
+                  11,
+                  220,
+                  39249,
+                  13,
+                  200010,
+                  200006
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Oak\n- Maple\n- Pine<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Oak\n- Maple\n- Pine",
+                "token_ids": [
+                  12,
+                  185004,
+                  198,
+                  12,
+                  220,
+                  41024,
+                  198,
+                  12,
+                  220,
+                  39249,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three common trees. Use one word per example.",
+              "strength": 1.0
+            },
+            {
+              "gain": "1",
+              "index": 3,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Guitar, violin, piano.<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "Guitar, violin, piano.",
+                "token_ids": [
+                  49402,
+                  11,
+                  220,
+                  36555,
+                  11,
+                  158944,
+                  13,
+                  200010,
+                  200006
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Guitar\n- Piano\n- Drums<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Guitar\n- Piano\n- Drums",
+                "token_ids": [
+                  12,
+                  220,
+                  49402,
+                  198,
+                  12,
+                  183619,
+                  198,
+                  12,
+                  220,
+                  43295,
+                  82,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three musical instruments. Use one word per example.",
+              "strength": 1.0
+            },
+            {
+              "gain": "1",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Sandwich\n- Fruit\n- Chips<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Sandwich\n- Fruit\n- Chips",
+                "token_ids": [
+                  12,
+                  156809,
+                  34109,
+                  198,
+                  12,
+                  220,
+                  38720,
+                  198,
+                  12,
+                  150508,
+                  33983,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 0.5
+            },
+            {
+              "gain": "1",
+              "index": 1,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Cinnamon, nutmeg, and ginger.<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "Cinnamon, nutmeg, and ginger.",
+                "token_ids": [
+                  57111,
+                  11,
+                  155790,
+                  53726,
+                  11,
+                  149880,
+                  220,
+                  43137,
+                  13,
+                  200010,
+                  200006
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Cinnamon\n- Nutmeg\n- Cloves<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Cinnamon\n- Nutmeg\n- Cloves",
+                "token_ids": [
+                  12,
+                  220,
+                  57111,
+                  198,
+                  12,
+                  160399,
+                  53726,
+                  198,
+                  12,
+                  149929,
+                  2432,
+                  82,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three spices used in baking. Use one word per example.",
+              "strength": 0.5
+            }
+          ],
+          "integrity": "pass",
+          "score": "1",
+          "updates": 64
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "absolute_rates": [
+        0.006,
+        0.018000000000000002,
+        0.03
+      ],
+      "arm": "generator-half",
+      "initial": "711233950819c601e294be12d2a88373f21406094b2bf80d44a574a2a1d0695c",
+      "quarters": [
+        {
+          "cases": [
+            {
+              "gain": "0",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 1.0
+            }
+          ],
+          "integrity": "pass",
+          "score": null,
+          "updates": 16
+        },
+        {
+          "cases": [
+            {
+              "gain": "0",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 1.0
+            }
+          ],
+          "integrity": "pass",
+          "score": null,
+          "updates": 32
+        },
+        {
+          "cases": [
+            {
+              "gain": "0",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 1.0
+            }
+          ],
+          "integrity": "pass",
+          "score": null,
+          "updates": 48
+        },
+        {
+          "cases": [
+            {
+              "gain": "1",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Sandwich\n- Fruit\n- Chips<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Sandwich\n- Fruit\n- Chips",
+                "token_ids": [
+                  12,
+                  156809,
+                  34109,
+                  198,
+                  12,
+                  220,
+                  38720,
+                  198,
+                  12,
+                  150508,
+                  33983,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 1.0
+            },
+            {
+              "gain": "0",
+              "index": 1,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Cinnamon, nutmeg, and ginger.<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "Cinnamon, nutmeg, and ginger.",
+                "token_ids": [
+                  57111,
+                  11,
+                  155790,
+                  53726,
+                  11,
+                  149880,
+                  220,
+                  43137,
+                  13,
+                  200010,
+                  200006
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Cinnamon, nutmeg, and ginger.<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "Cinnamon, nutmeg, and ginger.",
+                "token_ids": [
+                  57111,
+                  11,
+                  155790,
+                  53726,
+                  11,
+                  149880,
+                  220,
+                  43137,
+                  13,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three spices used in baking. Use one word per example.",
+              "strength": 1.0
+            },
+            {
+              "gain": "0",
+              "index": 2,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Oak, Maple, Pine.<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "Oak, Maple, Pine.",
+                "token_ids": [
+                  36788,
+                  11,
+                  220,
+                  41024,
+                  11,
+                  220,
+                  39249,
+                  13,
+                  200010,
+                  200006
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Oak, Maple, Pine.<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "Oak, Maple, Pine.",
+                "token_ids": [
+                  36788,
+                  11,
+                  220,
+                  41024,
+                  11,
+                  220,
+                  39249,
+                  13,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three common trees. Use one word per example.",
+              "strength": 1.0
+            },
+            {
+              "gain": "1",
+              "index": 3,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Guitar, violin, piano.<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "Guitar, violin, piano.",
+                "token_ids": [
+                  49402,
+                  11,
+                  220,
+                  36555,
+                  11,
+                  158944,
+                  13,
+                  200010,
+                  200006
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Guitar\n- Piano\n- Drums<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Guitar\n- Piano\n- Drums",
+                "token_ids": [
+                  12,
+                  220,
+                  49402,
+                  198,
+                  12,
+                  183619,
+                  198,
+                  12,
+                  220,
+                  43295,
+                  82,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three musical instruments. Use one word per example.",
+              "strength": 1.0
+            },
+            {
+              "gain": "0",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 0.5
+            },
+            {
+              "gain": "0",
+              "index": 1,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Cinnamon, nutmeg, and ginger.<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "Cinnamon, nutmeg, and ginger.",
+                "token_ids": [
+                  57111,
+                  11,
+                  155790,
+                  53726,
+                  11,
+                  149880,
+                  220,
+                  43137,
+                  13,
+                  200010,
+                  200006
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Cinnamon, nutmeg, and ginger.<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "Cinnamon, nutmeg, and ginger.",
+                "token_ids": [
+                  57111,
+                  11,
+                  155790,
+                  53726,
+                  11,
+                  149880,
+                  220,
+                  43137,
+                  13,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three spices used in baking. Use one word per example.",
+              "strength": 0.5
+            }
+          ],
+          "integrity": "pass",
+          "score": "1/3",
+          "updates": 64
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "absolute_rates": [
+        0.024,
+        0.018000000000000002,
+        0.03
+      ],
+      "arm": "generator-double",
+      "initial": "711233950819c601e294be12d2a88373f21406094b2bf80d44a574a2a1d0695c",
+      "quarters": [
+        {
+          "cases": [
+            {
+              "gain": "1",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Sandwich\n- Fruit\n- Chips<|end_message|>--<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Sandwich\n- Fruit\n- Chips--",
+                "token_ids": [
+                  12,
+                  156809,
+                  34109,
+                  198,
+                  12,
+                  220,
+                  38720,
+                  198,
+                  12,
+                  150508,
+                  33983,
+                  200010,
+                  12,
+                  12,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 1.0
+            }
+          ],
+          "integrity": "pass",
+          "score": null,
+          "updates": 16
+        },
+        {
+          "cases": [
+            {
+              "gain": "1",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Sandwich\n- Fruit\n- Chips<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Sandwich\n- Fruit\n- Chips",
+                "token_ids": [
+                  12,
+                  156809,
+                  34109,
+                  198,
+                  12,
+                  220,
+                  38720,
+                  198,
+                  12,
+                  150508,
+                  33983,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 1.0
+            }
+          ],
+          "integrity": "pass",
+          "score": null,
+          "updates": 32
+        },
+        {
+          "cases": [
+            {
+              "gain": "1",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Sandwich\n- Fruit\n- Chips<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Sandwich\n- Fruit\n- Chips",
+                "token_ids": [
+                  12,
+                  156809,
+                  34109,
+                  198,
+                  12,
+                  220,
+                  38720,
+                  198,
+                  12,
+                  150508,
+                  33983,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 1.0
+            }
+          ],
+          "integrity": "pass",
+          "score": null,
+          "updates": 48
+        },
+        {
+          "cases": [
+            {
+              "gain": "2/3",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 0.6666666666666666,
+                "raw_text": "- Sandwich\n- ---\n- ---\n",
+                "stop": "length",
+                "text": "- Sandwich\n- ---\n- ---\n",
+                "token_ids": [
+                  12,
+                  156809,
+                  34109,
+                  198,
+                  12,
+                  220,
+                  12,
+                  12,
+                  12,
+                  198,
+                  12,
+                  220,
+                  12,
+                  12,
+                  12,
+                  198
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 1.0
+            },
+            {
+              "gain": "1",
+              "index": 1,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Cinnamon, nutmeg, and ginger.<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "Cinnamon, nutmeg, and ginger.",
+                "token_ids": [
+                  57111,
+                  11,
+                  155790,
+                  53726,
+                  11,
+                  149880,
+                  220,
+                  43137,
+                  13,
+                  200010,
+                  200006
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Cinnamon\n- Nutmeg\n- Cloves<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Cinnamon\n- Nutmeg\n- Cloves",
+                "token_ids": [
+                  12,
+                  220,
+                  57111,
+                  198,
+                  12,
+                  160399,
+                  53726,
+                  198,
+                  12,
+                  149929,
+                  2432,
+                  82,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three spices used in baking. Use one word per example.",
+              "strength": 1.0
+            },
+            {
+              "gain": "1",
+              "index": 2,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Oak, Maple, Pine.<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "Oak, Maple, Pine.",
+                "token_ids": [
+                  36788,
+                  11,
+                  220,
+                  41024,
+                  11,
+                  220,
+                  39249,
+                  13,
+                  200010,
+                  200006
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Oak\n- Maple\n- Pine<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Oak\n- Maple\n- Pine",
+                "token_ids": [
+                  12,
+                  185004,
+                  198,
+                  12,
+                  220,
+                  41024,
+                  198,
+                  12,
+                  220,
+                  39249,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three common trees. Use one word per example.",
+              "strength": 1.0
+            },
+            {
+              "gain": "1",
+              "index": 3,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Guitar, violin, piano.<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "Guitar, violin, piano.",
+                "token_ids": [
+                  49402,
+                  11,
+                  220,
+                  36555,
+                  11,
+                  158944,
+                  13,
+                  200010,
+                  200006
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Guitar\n- Piano\n- Drums<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Guitar\n- Piano\n- Drums",
+                "token_ids": [
+                  12,
+                  220,
+                  49402,
+                  198,
+                  12,
+                  183619,
+                  198,
+                  12,
+                  220,
+                  43295,
+                  82,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three musical instruments. Use one word per example.",
+              "strength": 1.0
+            },
+            {
+              "gain": "1",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Sandwich\n- Fruit\n- Chips<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Sandwich\n- Fruit\n- Chips",
+                "token_ids": [
+                  12,
+                  156809,
+                  34109,
+                  198,
+                  12,
+                  220,
+                  38720,
+                  198,
+                  12,
+                  150508,
+                  33983,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 0.5
+            },
+            {
+              "gain": "1",
+              "index": 1,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Cinnamon, nutmeg, and ginger.<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "Cinnamon, nutmeg, and ginger.",
+                "token_ids": [
+                  57111,
+                  11,
+                  155790,
+                  53726,
+                  11,
+                  149880,
+                  220,
+                  43137,
+                  13,
+                  200010,
+                  200006
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Cinnamon\n- Nutmeg\n- Cloves<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Cinnamon\n- Nutmeg\n- Cloves",
+                "token_ids": [
+                  12,
+                  220,
+                  57111,
+                  198,
+                  12,
+                  160399,
+                  53726,
+                  198,
+                  12,
+                  149929,
+                  2432,
+                  82,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three spices used in baking. Use one word per example.",
+              "strength": 0.5
+            }
+          ],
+          "integrity": "pass",
+          "score": "17/18",
+          "updates": 64
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "absolute_rates": [
+        0.012,
+        0.009000000000000001,
+        0.03
+      ],
+      "arm": "critic-half",
+      "initial": "711233950819c601e294be12d2a88373f21406094b2bf80d44a574a2a1d0695c",
+      "quarters": [
+        {
+          "cases": [
+            {
+              "gain": "0",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 1.0
+            }
+          ],
+          "integrity": "pass",
+          "score": null,
+          "updates": 16
+        },
+        {
+          "cases": [
+            {
+              "gain": "0",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 1.0
+            }
+          ],
+          "integrity": "pass",
+          "score": null,
+          "updates": 32
+        },
+        {
+          "cases": [
+            {
+              "gain": "1",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Sandwich\n- Fruit\n- Chips<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Sandwich\n- Fruit\n- Chips",
+                "token_ids": [
+                  12,
+                  156809,
+                  34109,
+                  198,
+                  12,
+                  220,
+                  38720,
+                  198,
+                  12,
+                  150508,
+                  33983,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 1.0
+            }
+          ],
+          "integrity": "pass",
+          "score": null,
+          "updates": 48
+        },
+        {
+          "cases": [
+            {
+              "gain": "1",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Sandwich\n- Fruit\n- Chips<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Sandwich\n- Fruit\n- Chips",
+                "token_ids": [
+                  12,
+                  156809,
+                  34109,
+                  198,
+                  12,
+                  220,
+                  38720,
+                  198,
+                  12,
+                  150508,
+                  33983,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 1.0
+            },
+            {
+              "gain": "1",
+              "index": 1,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Cinnamon, nutmeg, and ginger.<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "Cinnamon, nutmeg, and ginger.",
+                "token_ids": [
+                  57111,
+                  11,
+                  155790,
+                  53726,
+                  11,
+                  149880,
+                  220,
+                  43137,
+                  13,
+                  200010,
+                  200006
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Cinnamon\n- Nutmeg\n- Cloves<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Cinnamon\n- Nutmeg\n- Cloves",
+                "token_ids": [
+                  12,
+                  220,
+                  57111,
+                  198,
+                  12,
+                  160399,
+                  53726,
+                  198,
+                  12,
+                  149929,
+                  2432,
+                  82,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three spices used in baking. Use one word per example.",
+              "strength": 1.0
+            },
+            {
+              "gain": "1",
+              "index": 2,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Oak, Maple, Pine.<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "Oak, Maple, Pine.",
+                "token_ids": [
+                  36788,
+                  11,
+                  220,
+                  41024,
+                  11,
+                  220,
+                  39249,
+                  13,
+                  200010,
+                  200006
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Oak\n- Maple\n- Pine<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Oak\n- Maple\n- Pine",
+                "token_ids": [
+                  12,
+                  185004,
+                  198,
+                  12,
+                  220,
+                  41024,
+                  198,
+                  12,
+                  220,
+                  39249,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three common trees. Use one word per example.",
+              "strength": 1.0
+            },
+            {
+              "gain": "1",
+              "index": 3,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Guitar, violin, piano.<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "Guitar, violin, piano.",
+                "token_ids": [
+                  49402,
+                  11,
+                  220,
+                  36555,
+                  11,
+                  158944,
+                  13,
+                  200010,
+                  200006
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Guitar\n- Piano\n- Drums<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Guitar\n- Piano\n- Drums",
+                "token_ids": [
+                  12,
+                  220,
+                  49402,
+                  198,
+                  12,
+                  183619,
+                  198,
+                  12,
+                  220,
+                  43295,
+                  82,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three musical instruments. Use one word per example.",
+              "strength": 1.0
+            },
+            {
+              "gain": "1",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Sandwich\n- Fruit\n- Chips<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Sandwich\n- Fruit\n- Chips",
+                "token_ids": [
+                  12,
+                  156809,
+                  34109,
+                  198,
+                  12,
+                  220,
+                  38720,
+                  198,
+                  12,
+                  150508,
+                  33983,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 0.5
+            },
+            {
+              "gain": "1",
+              "index": 1,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Cinnamon, nutmeg, and ginger.<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "Cinnamon, nutmeg, and ginger.",
+                "token_ids": [
+                  57111,
+                  11,
+                  155790,
+                  53726,
+                  11,
+                  149880,
+                  220,
+                  43137,
+                  13,
+                  200010,
+                  200006
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Cinnamon\n- Nutmeg\n- Cloves<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Cinnamon\n- Nutmeg\n- Cloves",
+                "token_ids": [
+                  12,
+                  220,
+                  57111,
+                  198,
+                  12,
+                  160399,
+                  53726,
+                  198,
+                  12,
+                  149929,
+                  2432,
+                  82,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three spices used in baking. Use one word per example.",
+              "strength": 0.5
+            }
+          ],
+          "integrity": "pass",
+          "score": "1",
+          "updates": 64
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "absolute_rates": [
+        0.012,
+        0.036000000000000004,
+        0.03
+      ],
+      "arm": "critic-double",
+      "initial": "711233950819c601e294be12d2a88373f21406094b2bf80d44a574a2a1d0695c",
+      "quarters": [
+        {
+          "cases": [
+            {
+              "gain": "0",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 1.0
+            }
+          ],
+          "integrity": "pass",
+          "score": null,
+          "updates": 16
+        },
+        {
+          "cases": [
+            {
+              "gain": "0",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 1.0
+            }
+          ],
+          "integrity": "pass",
+          "score": null,
+          "updates": 32
+        },
+        {
+          "cases": [
+            {
+              "gain": "1",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Sandwich\n- Fruit\n- Chips<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Sandwich\n- Fruit\n- Chips",
+                "token_ids": [
+                  12,
+                  156809,
+                  34109,
+                  198,
+                  12,
+                  220,
+                  38720,
+                  198,
+                  12,
+                  150508,
+                  33983,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 1.0
+            }
+          ],
+          "integrity": "pass",
+          "score": null,
+          "updates": 48
+        },
+        {
+          "cases": [
+            {
+              "gain": "1",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Sandwich\n- Fruit\n- Chips<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Sandwich\n- Fruit\n- Chips",
+                "token_ids": [
+                  12,
+                  156809,
+                  34109,
+                  198,
+                  12,
+                  220,
+                  38720,
+                  198,
+                  12,
+                  150508,
+                  33983,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 1.0
+            },
+            {
+              "gain": "1",
+              "index": 1,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Cinnamon, nutmeg, and ginger.<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "Cinnamon, nutmeg, and ginger.",
+                "token_ids": [
+                  57111,
+                  11,
+                  155790,
+                  53726,
+                  11,
+                  149880,
+                  220,
+                  43137,
+                  13,
+                  200010,
+                  200006
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Cinnamon\n- Nutmeg\n- Cloves<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Cinnamon\n- Nutmeg\n- Cloves",
+                "token_ids": [
+                  12,
+                  220,
+                  57111,
+                  198,
+                  12,
+                  160399,
+                  53726,
+                  198,
+                  12,
+                  149929,
+                  2432,
+                  82,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three spices used in baking. Use one word per example.",
+              "strength": 1.0
+            },
+            {
+              "gain": "1",
+              "index": 2,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Oak, Maple, Pine.<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "Oak, Maple, Pine.",
+                "token_ids": [
+                  36788,
+                  11,
+                  220,
+                  41024,
+                  11,
+                  220,
+                  39249,
+                  13,
+                  200010,
+                  200006
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Oak\n- Maple\n- Pine<|end_message|>-<|end_message|>-<|end_message|>-",
+                "stop": "length",
+                "text": "- Oak\n- Maple\n- Pine---",
+                "token_ids": [
+                  12,
+                  185004,
+                  198,
+                  12,
+                  220,
+                  41024,
+                  198,
+                  12,
+                  220,
+                  39249,
+                  200010,
+                  12,
+                  200010,
+                  12,
+                  200010,
+                  12
+                ]
+              },
+              "prompt": "Name three common trees. Use one word per example.",
+              "strength": 1.0
+            },
+            {
+              "gain": "1",
+              "index": 3,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Guitar, violin, piano.<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "Guitar, violin, piano.",
+                "token_ids": [
+                  49402,
+                  11,
+                  220,
+                  36555,
+                  11,
+                  158944,
+                  13,
+                  200010,
+                  200006
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Guitar\n- Piano\n- Drums<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Guitar\n- Piano\n- Drums",
+                "token_ids": [
+                  12,
+                  220,
+                  49402,
+                  198,
+                  12,
+                  183619,
+                  198,
+                  12,
+                  220,
+                  43295,
+                  82,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three musical instruments. Use one word per example.",
+              "strength": 1.0
+            },
+            {
+              "gain": "1",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Sandwich\n- Fruit\n- Chips<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Sandwich\n- Fruit\n- Chips",
+                "token_ids": [
+                  12,
+                  156809,
+                  34109,
+                  198,
+                  12,
+                  220,
+                  38720,
+                  198,
+                  12,
+                  150508,
+                  33983,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 0.5
+            },
+            {
+              "gain": "1",
+              "index": 1,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Cinnamon, nutmeg, and ginger.<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "Cinnamon, nutmeg, and ginger.",
+                "token_ids": [
+                  57111,
+                  11,
+                  155790,
+                  53726,
+                  11,
+                  149880,
+                  220,
+                  43137,
+                  13,
+                  200010,
+                  200006
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Cinnamon\n- Nutmeg\n- Cloves<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Cinnamon\n- Nutmeg\n- Cloves",
+                "token_ids": [
+                  12,
+                  220,
+                  57111,
+                  198,
+                  12,
+                  160399,
+                  53726,
+                  198,
+                  12,
+                  149929,
+                  2432,
+                  82,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three spices used in baking. Use one word per example.",
+              "strength": 0.5
+            }
+          ],
+          "integrity": "pass",
+          "score": "1",
+          "updates": 64
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "absolute_rates": [
+        0.012,
+        0.018000000000000002,
+        0.015
+      ],
+      "arm": "bank-half",
+      "initial": "711233950819c601e294be12d2a88373f21406094b2bf80d44a574a2a1d0695c",
+      "quarters": [
+        {
+          "cases": [
+            {
+              "gain": "0",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 1.0
+            }
+          ],
+          "integrity": "pass",
+          "score": null,
+          "updates": 16
+        },
+        {
+          "cases": [
+            {
+              "gain": "0",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 1.0
+            }
+          ],
+          "integrity": "pass",
+          "score": null,
+          "updates": 32
+        },
+        {
+          "cases": [
+            {
+              "gain": "1",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Sandwich\n- Fruit\n- Chips<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Sandwich\n- Fruit\n- Chips",
+                "token_ids": [
+                  12,
+                  156809,
+                  34109,
+                  198,
+                  12,
+                  220,
+                  38720,
+                  198,
+                  12,
+                  150508,
+                  33983,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 1.0
+            }
+          ],
+          "integrity": "pass",
+          "score": null,
+          "updates": 48
+        },
+        {
+          "cases": [
+            {
+              "gain": "1",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Sandwich\n- Fruit\n- Chips<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Sandwich\n- Fruit\n- Chips",
+                "token_ids": [
+                  12,
+                  156809,
+                  34109,
+                  198,
+                  12,
+                  220,
+                  38720,
+                  198,
+                  12,
+                  150508,
+                  33983,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 1.0
+            },
+            {
+              "gain": "1",
+              "index": 1,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Cinnamon, nutmeg, and ginger.<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "Cinnamon, nutmeg, and ginger.",
+                "token_ids": [
+                  57111,
+                  11,
+                  155790,
+                  53726,
+                  11,
+                  149880,
+                  220,
+                  43137,
+                  13,
+                  200010,
+                  200006
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Cinnamon\n- Nutmeg\n- Cloves<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Cinnamon\n- Nutmeg\n- Cloves",
+                "token_ids": [
+                  12,
+                  220,
+                  57111,
+                  198,
+                  12,
+                  160399,
+                  53726,
+                  198,
+                  12,
+                  149929,
+                  2432,
+                  82,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three spices used in baking. Use one word per example.",
+              "strength": 1.0
+            },
+            {
+              "gain": "1",
+              "index": 2,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Oak, Maple, Pine.<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "Oak, Maple, Pine.",
+                "token_ids": [
+                  36788,
+                  11,
+                  220,
+                  41024,
+                  11,
+                  220,
+                  39249,
+                  13,
+                  200010,
+                  200006
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Oak\n- Maple\n- Pine<|end_message|>-<|end_message|>-<|end_message|>-",
+                "stop": "length",
+                "text": "- Oak\n- Maple\n- Pine---",
+                "token_ids": [
+                  12,
+                  185004,
+                  198,
+                  12,
+                  220,
+                  41024,
+                  198,
+                  12,
+                  220,
+                  39249,
+                  200010,
+                  12,
+                  200010,
+                  12,
+                  200010,
+                  12
+                ]
+              },
+              "prompt": "Name three common trees. Use one word per example.",
+              "strength": 1.0
+            },
+            {
+              "gain": "1",
+              "index": 3,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Guitar, violin, piano.<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "Guitar, violin, piano.",
+                "token_ids": [
+                  49402,
+                  11,
+                  220,
+                  36555,
+                  11,
+                  158944,
+                  13,
+                  200010,
+                  200006
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Guitar\n- Piano\n- Drums<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Guitar\n- Piano\n- Drums",
+                "token_ids": [
+                  12,
+                  220,
+                  49402,
+                  198,
+                  12,
+                  183619,
+                  198,
+                  12,
+                  220,
+                  43295,
+                  82,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three musical instruments. Use one word per example.",
+              "strength": 1.0
+            },
+            {
+              "gain": "1",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Sandwich\n- Fruit\n- Chips<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Sandwich\n- Fruit\n- Chips",
+                "token_ids": [
+                  12,
+                  156809,
+                  34109,
+                  198,
+                  12,
+                  220,
+                  38720,
+                  198,
+                  12,
+                  150508,
+                  33983,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 0.5
+            },
+            {
+              "gain": "1",
+              "index": 1,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Cinnamon, nutmeg, and ginger.<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "Cinnamon, nutmeg, and ginger.",
+                "token_ids": [
+                  57111,
+                  11,
+                  155790,
+                  53726,
+                  11,
+                  149880,
+                  220,
+                  43137,
+                  13,
+                  200010,
+                  200006
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Cinnamon\n- Nutmeg\n- Cloves<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Cinnamon\n- Nutmeg\n- Cloves",
+                "token_ids": [
+                  12,
+                  220,
+                  57111,
+                  198,
+                  12,
+                  160399,
+                  53726,
+                  198,
+                  12,
+                  149929,
+                  2432,
+                  82,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three spices used in baking. Use one word per example.",
+              "strength": 0.5
+            }
+          ],
+          "integrity": "pass",
+          "score": "1",
+          "updates": 64
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "absolute_rates": [
+        0.012,
+        0.018000000000000002,
+        0.06
+      ],
+      "arm": "bank-double",
+      "initial": "711233950819c601e294be12d2a88373f21406094b2bf80d44a574a2a1d0695c",
+      "quarters": [
+        {
+          "cases": [
+            {
+              "gain": "0",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 1.0
+            }
+          ],
+          "integrity": "pass",
+          "score": null,
+          "updates": 16
+        },
+        {
+          "cases": [
+            {
+              "gain": "0",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 1.0
+            }
+          ],
+          "integrity": "pass",
+          "score": null,
+          "updates": 32
+        },
+        {
+          "cases": [
+            {
+              "gain": "1",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Sandwich\n- Fruit\n- Chips<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Sandwich\n- Fruit\n- Chips",
+                "token_ids": [
+                  12,
+                  156809,
+                  34109,
+                  198,
+                  12,
+                  220,
+                  38720,
+                  198,
+                  12,
+                  150508,
+                  33983,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 1.0
+            }
+          ],
+          "integrity": "pass",
+          "score": null,
+          "updates": 48
+        },
+        {
+          "cases": [
+            {
+              "gain": "1",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Sandwich\n- Fruit\n- Chips<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Sandwich\n- Fruit\n- Chips",
+                "token_ids": [
+                  12,
+                  156809,
+                  34109,
+                  198,
+                  12,
+                  220,
+                  38720,
+                  198,
+                  12,
+                  150508,
+                  33983,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 1.0
+            },
+            {
+              "gain": "1",
+              "index": 1,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Cinnamon, nutmeg, and ginger.<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "Cinnamon, nutmeg, and ginger.",
+                "token_ids": [
+                  57111,
+                  11,
+                  155790,
+                  53726,
+                  11,
+                  149880,
+                  220,
+                  43137,
+                  13,
+                  200010,
+                  200006
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Cinnamon\n- Nutmeg\n- Cloves<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Cinnamon\n- Nutmeg\n- Cloves",
+                "token_ids": [
+                  12,
+                  220,
+                  57111,
+                  198,
+                  12,
+                  160399,
+                  53726,
+                  198,
+                  12,
+                  149929,
+                  2432,
+                  82,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three spices used in baking. Use one word per example.",
+              "strength": 1.0
+            },
+            {
+              "gain": "1",
+              "index": 2,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Oak, Maple, Pine.<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "Oak, Maple, Pine.",
+                "token_ids": [
+                  36788,
+                  11,
+                  220,
+                  41024,
+                  11,
+                  220,
+                  39249,
+                  13,
+                  200010,
+                  200006
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Oak\n- Maple\n- Pine<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Oak\n- Maple\n- Pine",
+                "token_ids": [
+                  12,
+                  185004,
+                  198,
+                  12,
+                  220,
+                  41024,
+                  198,
+                  12,
+                  220,
+                  39249,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three common trees. Use one word per example.",
+              "strength": 1.0
+            },
+            {
+              "gain": "1",
+              "index": 3,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Guitar, violin, piano.<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "Guitar, violin, piano.",
+                "token_ids": [
+                  49402,
+                  11,
+                  220,
+                  36555,
+                  11,
+                  158944,
+                  13,
+                  200010,
+                  200006
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Guitar\n- Piano\n- Drums<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Guitar\n- Piano\n- Drums",
+                "token_ids": [
+                  12,
+                  220,
+                  49402,
+                  198,
+                  12,
+                  183619,
+                  198,
+                  12,
+                  220,
+                  43295,
+                  82,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three musical instruments. Use one word per example.",
+              "strength": 1.0
+            },
+            {
+              "gain": "1",
+              "index": 0,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "stop": "length",
+                "text": "Here are three snacks for a picnic:\n\n1. Sandwich\n",
+                "token_ids": [
+                  3828,
+                  149914,
+                  150396,
+                  193563,
+                  82,
+                  149887,
+                  149878,
+                  220,
+                  37849,
+                  25,
+                  68014,
+                  16,
+                  13,
+                  156809,
+                  34109,
+                  198
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Sandwich\n- Fruit\n- Chips<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Sandwich\n- Fruit\n- Chips",
+                "token_ids": [
+                  12,
+                  156809,
+                  34109,
+                  198,
+                  12,
+                  220,
+                  38720,
+                  198,
+                  12,
+                  150508,
+                  33983,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three snacks for a picnic. Use one word per example.",
+              "strength": 0.5
+            },
+            {
+              "gain": "1",
+              "index": 1,
+              "off": {
+                "integrity": "pass",
+                "intensity": 0.0,
+                "raw_text": "Cinnamon, nutmeg, and ginger.<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "Cinnamon, nutmeg, and ginger.",
+                "token_ids": [
+                  57111,
+                  11,
+                  155790,
+                  53726,
+                  11,
+                  149880,
+                  220,
+                  43137,
+                  13,
+                  200010,
+                  200006
+                ]
+              },
+              "on": {
+                "integrity": "pass",
+                "intensity": 1.0,
+                "raw_text": "- Cinnamon\n- Nutmeg\n- Cloves<|end_message|><|content_model_end_sampling|>",
+                "stop": "eos",
+                "text": "- Cinnamon\n- Nutmeg\n- Cloves",
+                "token_ids": [
+                  12,
+                  220,
+                  57111,
+                  198,
+                  12,
+                  160399,
+                  53726,
+                  198,
+                  12,
+                  149929,
+                  2432,
+                  82,
+                  200010,
+                  200006
+                ]
+              },
+              "prompt": "Name three spices used in baking. Use one word per example.",
+              "strength": 0.5
+            }
+          ],
+          "integrity": "pass",
+          "score": "1",
+          "updates": 64
+        }
+      ],
+      "status": "complete"
+    }
+  ],
+  "best_score": "1",
+  "best_tested": [
+    "stock",
+    "critic-half",
+    "critic-double",
+    "bank-half",
+    "bank-double"
+  ],
+  "peak_cuda_bytes": 19088601088
+}

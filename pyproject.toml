@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "inkling2-mini-particle-sliders"
+version = "0.2.0"
+description = "Raw routed Particle Sliders for Inkling 2 Mini text generation"
+requires-python = ">=3.12"
+dependencies = [
+  "torch==2.13.0",
+  "triton==3.7.1",
+  "safetensors==0.8.0",
+  "accelerate==1.14.0",
+  "particlegan==0.11.0",
+  "particle-sliders-core==0.14.4",
+  "transformers @ git+https://github.com/huggingface/transformers.git@6173a2f679ff4ed393afc499aefc569da7e68bc1",
+]
+
+[project.scripts]
+inkling2-sliders = "inkling2_sliders.cli:main"
+inkling2-bullet-render = "inkling2_sliders.bullet_cli:main"
+
+[project.entry-points."particle_sliders.response_backends"]
+inkling2_mini = "inkling2_sliders.slider:TRAINING"
+inkling2_mini_bullet = "inkling2_sliders.bullet:TRAINING"
+
+[project.entry-points."particle_sliders.inference_backends"]
+inkling2_mini = "inkling2_sliders.slider:INFERENCE"
+inkling2_mini_bullet = "inkling2_sliders.bullet:INFERENCE"
+
+[tool.setuptools.package-data]
+inkling2_sliders = ["*.json"]
