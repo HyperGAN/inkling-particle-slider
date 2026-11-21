@@ -27,8 +27,10 @@ defaults to a 24 GiB allocator cap. [Memory profiles](MEMORY.md)
 
 The [v0.2.0 release](https://github.com/HyperGAN/inkling-particle-slider/releases/tag/v0.2.0)
 includes the package, a Particle Sliders Core 0.14.4 companion wheel, and
-`RAW064.pt`. The companion uses the byte-identical reviewed runtime code
-with local paths removed from one provenance record. The package pins the required
+`RAW064.pt`. Use the release wheels below to satisfy the checkpoint's
+runtime source and model identity checks. The companion uses the byte-identical
+reviewed runtime code with local paths removed from one provenance record.
+The package pins the required
 [Transformers revision](https://github.com/huggingface/transformers/commit/6173a2f679ff4ed393afc499aefc569da7e68bc1).
 
 ```bash
@@ -53,7 +55,10 @@ the generated text, token IDs, and stopping status.
 
 ## Train and evaluate
 
-After installing the wheels and downloading the pinned model, run the
+For a fresh run, install this checkout with `python -m pip install .` in a
+separate environment. It uses ParticleGAN 0.11.1 and Particle Sliders Core
+0.15.2 with the stock EMPF recipe and explicit continuous penalties. Download
+the pinned model as above, then run the
 [bullet-margin experiment](experiments/bullet-margin/run_search.py) from
 the repository root. It captures native teacher responses and retains
 matched outputs, RAW exports, and resumable FULL checkpoints.
@@ -62,9 +67,10 @@ matched outputs, RAW exports, and resumable FULL checkpoints.
 python experiments/bullet-margin/run_search.py ./model ./run-bullet-margin
 ```
 
-Pass `--resume` with the original paths to resume the same run. The
-original prompt-end hidden-state experiment remains available through
-`inkling2-sliders`. Its eight-update rates all scored zero formatting
+Pass `--resume` with the original paths and original software environment
+to resume the same run. FULL checkpoints from v0.2.0 require its release
+environment. The original prompt-end hidden-state experiment remains available
+through `inkling2-sliders`. Its eight-update rates all scored zero formatting
 gain. [Diagnosis](docs/RESULTS.md#why-the-first-slider-missed)
 
 [MIT license](LICENSE)

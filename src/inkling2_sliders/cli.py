@@ -10,9 +10,9 @@ from statistics import mean
 
 import torch
 from particlegan import get_recipe
+from particle_sliders.audio import AudioRow, PreparedAudioResponse
 from particle_sliders.inference import open_inference, read_inference
 from particle_sliders.lifecycle import SessionConfig, atomic_json, atomic_save, read_packet
-from particle_sliders.pg09_audio import AudioRow, PreparedAudioResponse
 
 from .measurement import intensity, integrity, qualify_integrity
 from .native import STORAGE_PROFILES, Runtime, file_sha, source_sha

@@ -8,12 +8,12 @@ from pathlib import Path
 import torch
 from torch import nn
 from particle_sliders.adapter_activation import push_activation, restore_activation
+from particle_sliders.audio import AudioResponseCritic
+from particle_sliders.backends import AdapterParameters
+from particle_sliders.engine import ConditionalParticleGAN, PG_SOURCE_PROFILE, PG_VERSION
 from particle_sliders.field_critic import seed_initialization_rng
 from particle_sliders.inference import InferenceBackend, InferenceBinding, native_identity
 from particle_sliders.lifecycle import Binding, _check_packet, read_packet
-from particle_sliders.pg0110 import ConditionalPG0110, PG_SOURCE_PROFILE
-from particle_sliders.pg09_audio import AudioResponseCritic
-from particle_sliders.pg09_backends import AdapterParameters
 from particle_sliders.response import ResponseBackend, ResponseCapabilities, TRAINING as FULL_SCHEMA
 from particle_sliders.routed_projection import TinyParticleProjection
 
@@ -24,7 +24,7 @@ BACKEND = "inkling2_mini_bullet"
 PROTOCOL = "inkling2-mini-routed-bullet-margin-v1"
 RESPONSE = ResponseCapabilities(
     "routed_particle_gan", "text", "native_greedy_bullet_logit_margin", "continuous_vector",
-    (1, 1), "0.11.0", PG_SOURCE_PROFILE, penalty_input_domain="continuous",
+    (1, 1), PG_VERSION, PG_SOURCE_PROFILE, penalty_input_domain="continuous",
     base_precisions=(PRECISION,), qualification="Pinned Inkling 2 Mini greedy token margin",
 )
 LORA_RANK = 8
@@ -216,11 +216,12 @@ def _prepare(options, *, cohort, receipt, resident, prepared):
             native.initialization = (
                 _initialize(native, critic, options["seed"], cohort) if receipt is None else receipt
             )
-            game = ConditionalPG0110(
+            game = ConditionalParticleGAN(
                 native, rows, critic, conditions=conditions, particles=native.particles,
-                preset="empf", response_domain="continuous_vector", penalty_input_domain="continuous",
+                preset="empf", optimizer_dense_profile="recipe",
+                response_domain="continuous_vector", penalty_input_domain="continuous",
                 response_scale=options["response_scale"], batch_size=options["batch"],
-                seed=options["seed"], total_steps=options["steps"], recipe_overrides=options["rates"], ema_decay=None,
+                seed=options["seed"], total_steps=options["steps"], recipe_overrides=options["rates"],
             )
             specification = INFERENCE.specification(
                 native, model_identity=native.model_identity, protocol=PROTOCOL,

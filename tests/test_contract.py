@@ -6,7 +6,7 @@ import torch
 from torch import nn
 
 from particlegan import get_recipe
-from particle_sliders.pg09_backends import AdapterParameters
+from particle_sliders.backends import AdapterParameters
 from transformers.core_model_loading import Inkling2LoopDequantizeExperts
 
 from inkling2_sliders.cli import rate_options
