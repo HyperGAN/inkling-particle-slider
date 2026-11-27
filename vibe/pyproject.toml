@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "inkling-particle-vibe"
+version = "0.1.0"
+description = "Phrase-trained Inkling 2 Mini text adapters using the shared Anima-style vibe workflow"
+requires-python = ">=3.12"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = [
+  "particle-sliders-vibe @ git+https://github.com/HyperGAN/particle-sliders.git@fe017d86ae42740f1c337629e2ba885a0a6fc2e5#subdirectory=packages/particle-sliders-vibe",
+  "anima-particle-sliders @ git+https://github.com/HyperGAN/anima-particle-sliders.git@3f199aced570148fbb51a02d17a6d2847e9db05b",
+  "transformers @ git+https://github.com/huggingface/transformers.git@6173a2f679ff4ed393afc499aefc569da7e68bc1",
+  "torch==2.13.0", "triton==3.7.1", "particlegan==0.12.0", "safetensors==0.8.0",
+  "accelerate==1.14.0", "pillow>=13,<14",
+]
+
+[project.scripts]
+inkling-vibe = "inkling_vibe:main"
+
+[tool.setuptools]
+packages = ["inkling2_native"]
+py-modules = ["inkling_vibe"]
+
+[tool.setuptools.package-data]
+inkling2_native = ["model-lock.json"]

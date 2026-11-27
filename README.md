@@ -53,6 +53,25 @@ inkling2-bullet-render --model-dir ./model --raw ./RAW064.pt \
 Use `--strength 0` for the matched baseline. The command prints JSON with
 the generated text, token IDs, and stopping status.
 
+## Train a slider from a phrase
+
+The separate `vibe` package runs the shared text version of Anima’s `--vibe` workflow on Inkling’s frozen three-pass CUDA model. Start in a separate Python 3.12 environment, install a CUDA build of Torch 2.13, and install the product from this checkout.
+
+```sh
+python -m pip install ./vibe
+export CUDA_VISIBLE_DEVICES=0
+inkling-vibe --snapshot ./model --vibe "short rhyming couplets" --out ./runs/couplets
+```
+
+Supply `NANOGPT_API_KEY` to the training process. Before Inkling loads, a NanoGPT language model writes 24 neutral user requests, three distinct style instructions per request, and a stronger version of each for fitting. The writer defaults to `google/gemini-flash-latest` and can be selected with `INKLING_PROMPT_MODEL`. The private `prompt-rewrites/` directory records the writer, instructions, exact texts, and completed batches. Rerun the command with the same output directory to finish an interrupted prompt setup. Jev evaluates plain and styled replies against the original phrase. The winning treatment supplies its stronger cue for the training targets. The shared trainer freezes same-token response targets and fits RAW routed adapters to the final attention block. It compares quarter checkpoints on the same prompts at strength one, then runs Anima’s adaptive constant-strength search on the winning RAW. The selected strength must improve intact held-out replies and the reloaded export must replay the saved tokens. Use a new output directory for each fresh fit.
+
+The first candidate uses 64 updates. Inspect `result.json` for the held-out gain of the style you trained. Generate a matched comparison with the exported `slider.safetensors`:
+
+```sh
+inkling-vibe --snapshot ./model --prompt "Welcome a neighbor to the garden." --adapter ./runs/couplets/slider.safetensors --strength 0
+inkling-vibe --snapshot ./model --prompt "Welcome a neighbor to the garden." --adapter ./runs/couplets/slider.safetensors
+```
+
 ## Train and evaluate
 
 For a fresh run, install this checkout with `python -m pip install .` in a
