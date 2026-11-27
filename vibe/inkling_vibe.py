@@ -42,8 +42,14 @@ class InklingVibeModel(TextModel):
         # be reused for both conditions without caching an adapted activation.
         key = tuple(ids[0].tolist())
         cache = self.runtime.prefix_cache
-        if key not in cache and len(cache) >= 24:
-            del cache[next(iter(cache))]
+        if key not in cache:
+            if len(cache) >= 24:
+                del cache[next(iter(cache))]
+            if torch.is_grad_enabled():
+                # HF checkpointing requests embedding gradients during fitting.
+                # Capture a frozen prefix, then run the trainable last block below.
+                with torch.no_grad():
+                    self.runtime.last_hidden(key)
         return self.runtime.last_hidden(key).float()
 
     def new_adapter(self, key):
